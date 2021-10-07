@@ -107,22 +107,51 @@ section {
 
 /* Portfolio styling */
 
-#portfolio h1 {
+#portfolio {
+  background-color: #e6f3f1;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#portfolio section {
+  border: 3px solid #1aabb4;
+}
+
+.academic h1 {
   color: #ff0000;
   text-align: center;
 }
 
-#portfolio .container {
+.academic .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-#portfolio a {
+.academic a {
   display: inline-block;
   min-width: 200px;
   max-width: 300px;
+}
+
+/* portfolio syling */
+
+.portfolio-intro {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portfolio-intro h1 {
+  text-align: center;
 }
 
 /* form page styling */
@@ -184,4 +213,15 @@ footer p a {
   font-weight: 600;
   /* text-decoration: underline; */
   border-bottom: 2px solid #1aabb4;
+}
+
+@media screen and (min-width: 720px) {
+  .contact-container {
+    height: 75vh;
+  }
+  .contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+  }
 }
