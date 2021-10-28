@@ -279,6 +279,29 @@ textarea {
   max-width: 700px;
 }
 
+/* Smart abstract styling */
+.smart-abstract .container {
+  max-width: 1000px;
+}
+
+.abstract-heading {
+  padding-top: 1rem;
+}
+
+.smart-abstract h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+.smart-abstract h3 {
+  font-size: 1.1rem;
+  color: #646464;
+}
+
+.smart-content p {
+  line-height: 1.5;
+}
+
 /* footer styling */
 
 footer {
