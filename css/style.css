@@ -151,11 +151,15 @@ section.academic {
 }
 
 figure {
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.design-fig {
+  width: 75%;
 }
 
 .academic figure h4 {
