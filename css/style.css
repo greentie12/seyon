@@ -248,6 +248,30 @@ iframe {
   line-height: 1.5;
 }
 
+/* recommendation */
+/* .recommend .container {
+  margin: auto;
+} */
+.recommend h2 {
+  margin-top: 0;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.recommend figure {
+  width: 100%;
+  margin: 0;
+}
+
+.recommend .volunteer {
+  max-width: 600px;
+}
+
+/* manitha */
+.manitha img {
+  margin-top: 2rem;
+}
+
 /* form page styling */
 .contact {
   background-color: #e6f3f1;
