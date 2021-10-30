@@ -234,6 +234,20 @@ iframe {
   width: 100%;
 }
 
+/* Judges feeback */
+.judge-abstract .title {
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.judge-abstract h4 {
+  margin-top: 0.5rem;
+}
+
+.judge-abstract p {
+  line-height: 1.5;
+}
+
 /* form page styling */
 .contact {
   background-color: #e6f3f1;
